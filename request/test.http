@@ -1,0 +1,14 @@
+### estos son metadatos datos sobre otros datos
+POST  http://localhost:4000/producto/create
+content-type: application/json
+
+{
+    "codigo":"777",
+    "es_nacional":0,
+    "nombre":"william",
+    "precio":"22,50"
+}
+
+###
+GET http://localhost:4000/producto/list
+Content-Type: application/json
